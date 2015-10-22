@@ -55,4 +55,9 @@ class JadeCompiler extends Compiler implements CompilerInterface
     {
         return $this->jade->compile($value);
     }
+    
+    public function isExpired($path)
+    {
+        return parent::isExpired($path) || config('app.debug');
+    }
 }
