@@ -18,6 +18,7 @@ Add the ServiceProvider to the providers array in config/app.php:
 ## Usage
 
 Create views as always but in Jade syntax
+
 if `config('app.debug') == false` then you must run Artisan `php artisan view:clear` each time you have modify the dependence jade view (by `extends` or `include`)
 
 ## License
