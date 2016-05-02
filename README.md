@@ -24,3 +24,4 @@ if `config('app.debug') == false` then you must run Artisan `php artisan view:cl
 ## License
 
 LaravelJadePHPServiceProvider is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+copied
