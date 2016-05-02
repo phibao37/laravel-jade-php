@@ -9,7 +9,7 @@ Require this package with composer:
 composer require cve/laravel-jade-php
 ```
 
-Add the ServiceProvider to the providers array in config/app.php:
+Add the ServiceProvider to the providers array in config/app.php:    
 
 ```
 'Cve\LaravelJadePHPServiceProvider',
@@ -24,3 +24,4 @@ if `config('app.debug') == false` then you must run Artisan `php artisan view:cl
 ## License
 
 LaravelJadePHPServiceProvider is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+copied
