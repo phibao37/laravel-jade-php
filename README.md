@@ -9,7 +9,7 @@ Require this package with composer:
 composer require cve/laravel-jade-php
 ```
 
-Add the ServiceProvider to the providers array in config/app.php:
+Add the ServiceProvider to the providers array in config/app.php:    
 
 ```
 'Cve\LaravelJadePHPServiceProvider',
